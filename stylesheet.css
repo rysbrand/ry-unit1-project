@@ -1,0 +1,155 @@
+/*  Rebecca Ysbrand
+    File Name: Stylesheet
+    Date: 20240914
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #620B11;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: -5px;
+    font-weight:lighter;
+}
+
+a {
+    color:#620B11; 
+    text-decoration: none; 
+}
+
+a:visited {
+    color:#620B11; 
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: none; 
+}
+
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1em; 
+    background-color: #C6DFBF;
+    position: relative;
+    margin-top: -10px;
+}
+
+.mini_avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-style:solid;
+    border-color:#FEC2C2;
+    border-width:.1em;
+}
+
+.mini_avatar img {
+    height: 40px; 
+    width: 40px; 
+    padding-left: 11%; 
+    padding-top:5%; 
+    border-radius: 50%
+}
+.center {
+    flex-grow: 1; 
+    text-align: center; 
+    font-size: x-large;
+    font-family: "Verdana New", "Helvetica", sans-serif;
+    margin-bottom: 0px;
+}
+
+.center p {
+    font-family: "Verdana New", "Helvetica", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color:#620B11;
+}
+
+.center_image {
+    text-align: center;
+}
+
+.center_image img {
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    margin-top: -10px;
+    padding: 1.75%;
+}
+
+body {
+    background-color: #C6DFBF;
+}
+
+.social path {
+    height: 50px;
+    width: 50px;
+    fill:#620B11;
+}
+
+.social {
+    margin-top: -60px;
+    text-align:center;
+}
+
+.content_container {
+    
+    margin-top: 2.5%;
+}
+
+.index_paragraph {
+    column-count: 2;
+    column-gap: 15%;
+    column-width: 150px;
+    height: auto;
+    text-align: center;
+    padding: 2% 10%;
+
+    
+}
+
+/*for personalIntro*/
+.pi_paragraph {
+    margin: 0 10px;
+    display: inline-block;
+    width: 20%;
+    padding-left: 2%;
+    padding-right: 50px;
+}
+/*For PersonalIntro*/
+.sidebyside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+/*For PersonalIntro*/
+.figure-image {
+    justify-content: space-evenly;
+    width: 45%;
+    height: auto;
+    padding: 10%;
+}
+
+.wireframe
+{outline:1px solid red;}
+
+.columns {
+    height: auto;
+    width:50%;
+    float:left;
+}
+
